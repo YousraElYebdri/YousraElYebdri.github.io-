@@ -4,6 +4,8 @@
 
 1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
 
+![img](https://i.ibb.co/rZTBjyj/Capture.png)
+
 - **NetBeans** : Environnement de déveppement intégré (IDE) utilisé pour ce projet
 - **HTML** : Langage de description utilisé pour concevoir les pages web
 - **CSS** : Langage de style utilisé pour mettre en frome les pages web
