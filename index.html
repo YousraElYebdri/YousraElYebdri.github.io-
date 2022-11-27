@@ -14,37 +14,89 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <meta name="author" content="El Yebdri Yousra">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+              integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+              crossorigin="anonymous">
 
         <title>Portefolio BTS SIO</title>
         <link rel="icon" href="favicon.ico">
     </head>
     <body>
-        <header class="header header-style-4 navbar-light">
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
             <div class="container">
-                <!-- Nav -->
-                <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand-size" href="home.html">El Yebdri Yousra</a>
-                    <!-- Mobile Toggle -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-01" aria-controls="header-01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- Mobile Toggle End-->
-                    <div id="header-01" class="collapse navbar-collapse top-menu">
-                        <!-- Menu Start -->
-                        <ul class="nav navbar-nav ml-auto">
-                            <li><a href="home.html"> Accueil </a></li>
-                            <li><a class="current" href="profil.html"> Profil </a></li>
-                            <li><a href="btssio.html">BTS SIO</a></li>
-                            <li><a href="contextes.html">Situations Professionnelles</a></li>
-                            <li><a href="veille.html">Veille Technologique</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                        <!-- Menu End -->
-                    </div>
-                </nav><!-- Nav End -->
-            </div><!-- Container -->
-        </header>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse"
+                        data-target="#navbar" aria-controls="navbar">
+                    <span class="sr-only">Navigation raccourcie</span>
+                </button>
+                <a class="navbar-brand" href="#"> El Yebdri</a>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item">
+                            <a href="index.html" class="nav-link">
+                                <span class="fa fa-home"></span> Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cv.html" class="nav-link">
+                                <span class="fa fa-id-badge"></span> CV
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link"
+                               data-toggle="dropdown" role="button">
+                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    En autonomie</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Application Android</a>
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Site web</a>
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Études et analyses</a>
+                                </li>
+                                <li role="presentation" class="dropdown-divider"></li>
+                                <li role="presentation" class="dropdown-header dropdown-item">
+                                    En entreprise</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Projet de 1ère année</a>
+                                </li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Projet de 2ème année</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown nav-item"> 
+                            <a href="#" class="dropdown-toggle nav-link"
+                               data-toggle="dropdown" role="button">
+                                <span class="fa fa-graduation-cap"></span>
+                                Jury E5 BTS SIO
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li role="presentation" class="dropdown-header dropdown-item">    
+                                    Codes sources</li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Sources SP n°1</a></li>
+                                <li role="presentation" class="dropdown-item">
+                                    <a role="menuitem" href="#">Sources SP n°2</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><span class="fa fa-envelope"></span>
+                                Me contacter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>    
+
+
+
 
         <!-- Optional JavaScript; choose one of the two! -->
 
